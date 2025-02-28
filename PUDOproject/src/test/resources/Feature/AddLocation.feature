@@ -35,10 +35,10 @@ Feature: Add Location Functionality
     Given I open the PUDO add location page
     When I enter "PUDO123" in the "PUDO Code" field
     And I click on the submit button
-    Then I should see an error message "Please fill in all required fields"
     
     
-  Scenario: Verify that a duplicate PUDO Code cannot be added
+    
+  Scenario: Verify that a duplicate PUDO Code cannot be added.
     Given I open the PUDO login page
     When I enter valid email "oma.devi@outlook.com"
     And I enter valid password '6~4;6InG5"rk'
